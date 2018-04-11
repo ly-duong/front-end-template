@@ -9,3 +9,14 @@ function testUtil(){
     return 2;
 }
 testUtil();
+
+var Utils = { 
+    "getcareerinfo" : function() {
+    return [
+        {"descriptor": "Org Level/DTE", "text": "Digital Delivery Applied Intelligence"},
+        {"descriptor": "Role", "text": "Business Intelligence Analyst"},
+        {"descriptor": "Talent Segment", "text": "Business & Technology Integration"},
+        {"descriptor": "Career Track", "text": "Client & Market"}
+    ];
+    }
+};

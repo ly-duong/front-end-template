@@ -23,7 +23,7 @@ var gulp = require('gulp'),
 // Our task config
 var runList = [
     'styles',
-//    'images',
+    'images',
     'scripts',
     'html'
 ];
@@ -132,12 +132,6 @@ gulp.task('watch', function() {
 
     // Watch .js files
     gulp.watch('src/scripts/**/*.js', ['scripts']);
-
-    // Watch image files
-    gulp.watch('src/images/**/*', ['images']);
-
-    // Watch html files
-    gulp.watch('src/*.html', ['html']);
 
     // Create LiveReload server
     livereload.listen();  // This livereload is for when "node server.js" is run.

@@ -4,3 +4,157 @@
 .red{
     color: #b00000;
 }
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.content{
+    width: 60%;
+}
+
+section .nav{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    align-content: flex-start;
+    background-color: #999999;
+}
+
+nav ul{
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    font-variant: small-caps;
+    text-indent: 0%;
+    display: inline-block;
+    padding: 0;
+    line-height: 4em;
+}
+
+nav a:link{
+    color:black;
+    text-decoration: none;  
+}
+
+nav a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #999999;
+}
+
+.gallery{
+    /*align-content: flex-end;*/
+    height: 90%;
+    width: 20%;
+}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+    font-weight: 200;
+    width: 100%;
+}
+
+.header p{
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    color: #999999;
+    font-size: 0.9em;
+}
+
+header img{
+    width: 140px;
+    float: left;
+    padding: 30.150px 10px 0 0;
+}
+
+.experience ul{
+    list-style: none;
+    line-height: 2em;
+    padding: 0;
+}
+
+section {
+    border: 50px;
+    color: black;
+    margin: 40px 0 0 0;
+    box-shadow: #999999;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 45px;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+figure{
+    margin: 0;
+}
+
+.flairs figure{
+    display: inline;
+}
+
+.flairs{
+    margin: 0 0 0 105px;
+}
+
+.flairs img{
+    padding: 5px 10px 0 0;
+    width: 35px;
+}
+
+.contact img{
+    width: 20px;
+}
+
+.career .descriptor{
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #999999;
+    height: 70px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+footer ul {
+    margin: 0 auto;
+    list-style: none;
+    line-height: 1.5em;
+    text-align: middle;
+    text-indent: 0;
+}
+
+footer img{
+    padding: 0 15px 0 0;
+    margin: 0 auto;
+    width: 35px;
+}
+
